@@ -8,7 +8,12 @@
 import UIKit
 
 class NewUserViewController: UIViewController {
-
+    
+    @IBOutlet weak var fName: UITextField!
+    
+    @IBOutlet weak var lName: UITextField!
+    
+    @IBOutlet weak var Email: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +21,14 @@ class NewUserViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+  
+    
+    @IBAction func createUserTapped(_ sender: Any) {
+        APIClient.createUser(fName: fName.text ?? "", lName: lName.text ?? "", Email: Email.text ?? "") { response, error in
+            print("Done")
+        }
+        
     }
-    */
+    
 
 }

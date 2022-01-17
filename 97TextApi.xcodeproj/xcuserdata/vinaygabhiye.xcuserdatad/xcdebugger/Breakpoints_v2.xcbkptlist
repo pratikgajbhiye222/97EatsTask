@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A1FF08CF-87C3-4272-9D4E-EE4246457357"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54C44CF1-B6B8-406B-89EF-8C86E6837F08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "97TextApi/APIClient/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "homeUserApi(pagination:limit:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF79108E-6D3A-43FB-AE7E-FAA83B79D8C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "97TextApi/APIClient/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "homeUserApi(pagination:limit:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF79108E-6D3A-43FB-AE7E-FAA83B79D8C9 - 4308e92619166ec1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static _7TextApi.APIClient.homeUserApi(pagination: Swift.Bool, limit: Swift.Int, completion: (Swift.Array&lt;_7TextApi.Datum&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "97TextApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinaygabhiye/Desktop/97TextApi/97TextApi/APIClient/ApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "EF79108E-6D3A-43FB-AE7E-FAA83B79D8C9 - f659170f44b0affe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;_7TextApi.HomeModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static _7TextApi.APIClient.homeUserApi(pagination: Swift.Bool, limit: Swift.Int, completion: (Swift.Array&lt;_7TextApi.Datum&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "97TextApi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vinaygabhiye/Desktop/97TextApi/97TextApi/APIClient/ApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "175"
+                  endingLineNumber = "175"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12C2D866-12A1-4800-9DF4-4219E3ECB49E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "97TextApi/Controller/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "callAPi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
